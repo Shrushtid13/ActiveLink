@@ -227,7 +227,7 @@ function App() {
           <span className="text-xl font-bold tracking-tight text-white uppercase">ActiveLink <span className="text-indigo-500 font-medium">Command</span></span>
         </div>
         <div className="flex items-center gap-8">
-          <a href={`http://localhost:5173?sync_session=${adminEmail}`} className="text-xs font-semibold text-slate-500 hover:text-white transition-colors uppercase tracking-widest">User Portal →</a>
+          <a href={`https://active-link-sigma.vercel.app?sync_session=${adminEmail}`} className="text-xs font-semibold text-slate-500 hover:text-white transition-colors uppercase tracking-widest">User Portal →</a>
           
           {loggedIn && (
             <div className="relative">
