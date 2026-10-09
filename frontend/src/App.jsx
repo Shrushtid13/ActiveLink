@@ -351,7 +351,7 @@ function App() {
             </div>
             {accessNotification.status === 'ACCEPTED' && (
               <button 
-                onClick={() => window.location.href = 'http://localhost:5174'}
+                onClick={() => window.location.href = 'https://activelink-admin.vercel.app'}
                 className="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs uppercase tracking-[0.2em] transition-all shadow-xl shadow-indigo-600/30"
               >
                 Launch Command Center
@@ -387,7 +387,7 @@ function App() {
               <button onClick={() => setShowLeaderboard(true)} className="text-xs font-bold text-slate-400 hover:text-white transition-all uppercase tracking-widest px-3 py-2 border border-white/5 rounded-xl bg-white/5">🏆 <span className="hidden md:inline">Leaderboard</span></button>
             </>
           ) : (
-            <a href="http://localhost:5174" className="text-xs font-semibold text-slate-500 hover:text-white transition-colors uppercase tracking-widest flex items-center gap-2">
+            <a href="https://activelink-admin.vercel.app" className="text-xs font-semibold text-slate-500 hover:text-white transition-colors uppercase tracking-widest flex items-center gap-2">
               <span className="opacity-50">🛡️</span> Admin Console
             </a>
           )}
@@ -429,7 +429,7 @@ function App() {
                         </button>
                       ) : (
                         <a 
-                          href={`http://localhost:5174?sync_session=${connectedEmail}`}
+                          href={`https://activelink-admin.vercel.app?sync_session=${connectedEmail}`}
                           className="block w-full text-left px-3 py-2 rounded-xl text-[11px] font-bold text-indigo-400 hover:text-white hover:bg-indigo-500/10 transition-all uppercase tracking-wide"
                         >
                           Enter Admin Hub →
